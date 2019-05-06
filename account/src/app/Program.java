@@ -39,5 +39,9 @@ public class Program {
 		Account acc7 = new SavingsAccount(1006, "Melody", 1000.0, 0.01);
 		acc7.withdraw(200.00);
 		System.out.println(acc7.getBalance());
+		
+		Account acc8 = new BusinessAccount(1007, "Tedy", 1000.0, 500.00);
+		acc8.withdraw(200.00);
+		System.out.println(acc8.getBalance());
 	}
 }
