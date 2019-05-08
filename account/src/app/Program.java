@@ -50,7 +50,11 @@ public class Program {
 		x.withdraw(50.0);
 		y.withdraw(50.0);
 		
-		System.out.println(x.getBalance());
-		System.out.println(y.getBalance());
+		// System.out.println(x.getBalance());
+		// System.out.println(y.getBalance());
+		
+		Account acc9 = new Account(1023, "Andrey", 1000.0);
+		Account acc10 = new SavingsAccount(1025, "Alan", 1000.0, 0.01);
+		Account acc11 = new BusinessAccount(1028, "Robert", 1000.0, 500.0);
 	}
 }
